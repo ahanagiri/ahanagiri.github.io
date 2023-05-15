@@ -1,21 +1,42 @@
 <html>
     <head>
+    <meta charset="UTF-8">
 		<link rel="stylesheet"href="myStyle.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <style>
+    .image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.image-container:hover .image-text {
+  opacity: 1;
+}
+  </style>
     </head>
 
     <body>
         <a href="index.html">home</a>
         <a href="page1.html">interests</a>
         <a href="page2.html">hobbies</a>
-        <a href="page3.html">socials</a>
+        <a href="page3.html">game</a>
         <br>
 <h2>welcome to</h2>
 <h1>ahana giri's page!</h1>
 <br>
 <button>click here!</button>
 <hr>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
-    </body>
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://e0.pxfuel.com/wallpapers/842/86/desktop-wallpaper-turtle-shell-aesthetic-turtle.jpg" alt="Link to Example Website"></a>
+<div class="image-container">
+  <div class="image-text">click here!</div>
+</div>
+</body>
 </html>
