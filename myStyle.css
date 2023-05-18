@@ -1,11 +1,11 @@
 h1 {
-    text-align: center;
+    text-align: right;
     color: rgb(253, 173, 173);
     font-size: 50px;
-    font-family: 'Cambria'
+    font-family: 'Georgia'
 }
 h2 {
-    text-align: center;
+    text-align: right;
     color: lightcoral;
     font-size: 40px;
     font-family: 'Georgia'
@@ -17,14 +17,20 @@ a {
     text-decoration: none;
     font-size: 25px;
     align-items: center;
+    color: black;
+    font-family: 'Georgia'
 }
 a:hover {
     color:lightcoral
+}
+button:hover {
+    color: lightcoral;
 }
 p {
     text-align: center;
     font-size: 30px;
 }
 li {
-    text-align: center;
+    text-align: left;
 }
+
